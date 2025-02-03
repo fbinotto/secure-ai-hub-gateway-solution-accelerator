@@ -23,7 +23,7 @@ param apimServiceName string = ''
 
 @description('Network type for API Management service. Leave blank to use default naming conventions.')
 @allowed([ 'None', 'External', 'Internal' ])
-param apimNetworkType string = 'External'
+param apimNetworkType string = 'Internal'
 
 @description('Azure OpenAI service public access')
 @allowed([ 'Enabled', 'Disabled' ])
